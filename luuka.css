@@ -1,0 +1,140 @@
+body{
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+#container1{
+    background-color: rgb(67, 67, 233);
+    color: white;
+    display: flex;
+    
+}
+
+#container2{
+    display: flex;
+    width :100%;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+#container4{
+    background-color: rgb(78, 78, 227);
+    margin: 0px;
+    border-radius: 9px;
+    padding: 20px;
+    color: white;
+}
+
+#container7{
+    background-color: rgb(88, 88, 227);
+    color: white;
+    text-align: left;
+    display: flex;
+    padding: 40px
+}
+#myEmail{
+    color: white;
+    text-align: right;
+}
+
+.myList{
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+.myNav li{
+    margin-right: 20px;
+}
+
+#myButton{
+    background-color: rgb(23, 236, 23);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+#companyOverViewBtn{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(26, 138, 26);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+aside{
+    display: block;
+    float: left;
+    padding: 10px;
+}
+section{
+    float: left;
+    padding: 10px;
+}
+article{
+    float: left;
+    padding: 10px;
+}
+
+#container6{
+    display: flow-root;
+}
+
+#manImage{
+    float: left;
+    margin-right: 15px;
+    margin-left: 10px;
+    width: 550px;
+    height: auto;
+    padding:30px;
+    border-radius: 10px;
+}
+
+/* 1. Container anchor */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* 2. Hide list by default & position it directly underneath */
+.dropdownmenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  list-style: none;
+  padding: 8px 0;
+  margin: 0;
+  min-width: 220px;
+  z-index: 1000; /* Keeps menu above other page content */
+}
+
+/* 3. THE HOVER TRIGGER: Shows the list when hovering over "About Us" */
+.dropdown:hover .dropdownmenu {
+  display: block;
+}
+
+/* 4. Item styling */
+.dropdownmenu li a {
+  color: white;
+  background-color: rgb(78, 78, 227);
+  padding: 8px 16px;
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  font-weight:100;
+}
+
+.dropdownmenu li a:hover {
+  background-color: #f0f4fa;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+}

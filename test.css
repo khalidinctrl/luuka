@@ -1,0 +1,14 @@
+.dropdown {
+  position: relative; /* Anchor for the sub-menu */
+}
+
+.menu {
+  display: none;      /* Hide by default */
+  position: absolute; /* Float over content */
+  top: 100%;
+  left: 0;
+}
+
+.dropdown:hover .menu {
+  display: block;     /* Show on hover */
+}
