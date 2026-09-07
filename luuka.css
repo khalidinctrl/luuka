@@ -7,7 +7,13 @@ body{
     background-color: rgb(67, 67, 233);
     color: white;
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container1 div:first-child{
+    display: flex;
+    gap: 10px;
 }
 
 #container2{
@@ -18,23 +24,29 @@ body{
 }
 
 #container4{
-    background-color: rgb(78, 78, 227);
-    margin: 0px;
+    background-color: rgb(43, 103, 178);
     border-radius: 9px;
-    padding: 20px;
+    padding: 80px;
     color: white;
 }
 
 #container7{
-    background-color: rgb(88, 88, 227);
+    background-color: rgb(43, 103, 178);
+    box-shadow: 0px, 0px, 10px;
     color: white;
     text-align: left;
     display: flex;
-    padding: 40px
+    padding: 40px;
+    gap: 55px;
+    font-weight: lighter;
+    font-size: 16px;
+    border-top: solid;
+    border-color: rgb(90, 226, 90);
+    border-width: 5px;
 }
 #myEmail{
     color: white;
-    text-align: right;
+    align-items: center;
 }
 
 .myList{
@@ -48,12 +60,14 @@ body{
 }
 
 #myButton{
-    background-color: rgb(23, 236, 23);
+    background-color: rgb(28, 164, 28);
     color: white;
     border: none;
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px;
     font-weight: bold;
+    font-size: larger;
+    margin-left: auto;
 }
 
 #companyOverViewBtn{
@@ -81,6 +95,8 @@ article{
 
 #container6{
     display: flow-root;
+    justify-content: center;
+    padding: 20px;
 }
 
 #manImage{
@@ -138,3 +154,21 @@ ul{
     list-style-type: none;
     margin: 0;
 }
+
+.snackPictures{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+.snackpack{
+    margin: 20px;
+    border: solid;
+    width: 250px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 15px black;
+}
+

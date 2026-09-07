@@ -5,29 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>luuka</title>
     <link rel="stylesheet" href="luuka.css">
+    <link rel="icon" href="images/favicon (2).png">
     <script src="https://kit.fontawesome.com/3b90a0a1d3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.j"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+        width: 100%;
+        height: 500px;
+    }
+    </style>
 </head>
 
 <body>
     <div id="container1">
         <div>
-            <i class="fa-brands fa-facebook-f" style="margin-top: 7px;"></i>
-            <i class="fa-brands fa-twitter" style="margin-top: 7px;"></i>
-            <a href="youtube.com"><i class="fa-brands fa-youtube" style="margin-top: 7px;"></i></a>
-            <i class="fa-brands fa-linkedin-in" style="margin-top: 7px;"></i>
+            <i class="fa-brands fa-facebook-f";></i>
+            <i class="fa-brands fa-twitter";></i>
+            <a href="youtube.com"><i class="fa-brands fa-youtube";></i></a>
+            <i class="fa-brands fa-linkedin-in";></i>
         </div>
         
         <div>
-            <h5 style="text-align: right;" id="myEmail">Office: +256-393-516269   |   WhatsApp: +256-751-052487</h5>
+            <p id="myEmail">Office: +256-393-516269   |   WhatsApp: +256-751-052487</p>
         </div>
     </div>
     
 <div id="container2">
+    <div>
+        <img href="luuka.html" src="/images/logo.png" style="height: 60px; width: 170px;">
+    </div>
     <nav class="myNav">
         <ul class="myList">
-            <li>Luuka</li>
-            <li>Home</li>
-            <li class="dropdown">About Us👇
+            <a href="luuka.html" style="color: black;"><li>Home</li></a>
+            <a href="aboutUs.html" style="color: black;"><li class="dropdown">About Us ⬇️</a>
                 <ul class="dropdownmenu">
                     <li><a>Who We Are</a></li>
                     <li><a>Board of Directors</a></li>
@@ -37,7 +51,7 @@
                 </ul>
             </li>
 
-            <li class="dropdown">Products👇
+            <li class="dropdown">Products⬇️
                 <ul class="dropdownmenu">
                     <li><a>Agricultural Solution</a></li>
                     <li><a>Beverage Solution</a></li>
@@ -49,13 +63,13 @@
                     <li><a>Builders Soulutions</a></li>
                     <li><a>Dining Soulutions</a></li>
                     <li><a>Home Care Soulutions</a></li>
-                    <li><a>Snacks Soulutions</a></li>
+                    <li><a href="snacksSolution.html" style="color: black;">Snacks Soulutions</a></li>
                     <li><a>Washing Soulutions</a></li>
                 </ul>
             </li>
             <li>Sustainabilty</li>
 
-            <li class="dropdown">News & Media👇
+            <li class="dropdown">News & Media⬇️
                 <ul class="dropdownmenu">
                     <li><a>Newsroom</a></li>
                     <li><a>Careers</a></li>
@@ -66,57 +80,88 @@
         </ul>
     </nav>
     
-    <button id="myButton">Get a Quote</button>
+    <button id="myButton">Get a Quote ➡️</button>
 </div>
 
-<div style="margin: 100px;" id="container3">
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://europlas.com.vn/Data/Sites/1/News/5645/10-best-plastic-materials-for-pressure-forming-11.jpg" alt="Los Angeles" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="https://img.freepik.com/premium-psd/bread-pouch-packaging-mockup_439185-2480.jpg?w=826" alt="Chicago" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="https://img.freepik.com/premium-photo/bunch-different-colored-plastic-utensils-spoons-generative-ai-image_87646-17752.jpg" alt="New York" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<div style="margin: 100px; font-size: larger;" id="container3">
     <h2 style="color: rgb(78, 78, 201);">Welcome To Luuka Plastics</h2>
 
     <p style="color: rgb(53, 202, 53);">An ISO 9001:2015 Certified Co.</p>
 
     <p>Luuka Plastics is one of the leading manufacturers of flexible packaging materials and plastics in Uganda. We deliver top-quality products and services to our customers in Uganda, Kenya, Tanzania, Rwanda, Burundi, Congo, and South Sudan. We follow international standards of quality control with ISO 9001:2015 certification. We produce customized packaging for a huge variety of foodstuffs & confectionary, fast-moving consumer goods, pharmaceutical products, personal hygiene products, and much more. Our solutions incorporate high-quality laminates with registered cold seals, hot-filled laminates, all types of pouches, shrink sleeves, foils, and customer options are almost endless.</p>
-        <button id="companyOverViewBtn">Company Overview</button>
+    <button id="companyOverViewBtn">Company Overview</button>
 </div>
 
 <div id="container4">
-    <div style="text-align: center; display: block;">
+    <div style="text-align: center; width: 70%; margin-left: 150px; font-size: larger;">
         <h2>Our Values</h2>
         <p>In pursuit of our vision and mission, it is the continual application of set values that determines how successful we can become. We, therefore, believe in;</p>
     </div>
 
-    <div style="display: flex;">
+    <div style="display: flex; padding-top: 20px;">
         <div>
-            <i class="fa-solid fa-bullseye"></i>
+            <i style="font-size: 80px;" class="fa-solid fa-bullseye"></i>
             <h3>Honesty</h3>
             <p>We believe honesty is an integral part of our working relations.</p>
         </div>
 
         <div>
-            <i class="fa-solid fa-radiation"></i>
+            <i style="font-size: 80px;" class="fa-solid fa-radiation"></i>
             <h3>Integrity</h3>
             <p>We believe integrity is at the heart of our individual and corporate actions</p>
         </div>
 
         <div>
-            <i class="fa-solid fa-fingerprint"></i>
+            <i style="font-size: 80px" class="fa-solid fa-fingerprint"></i>
             <h3>Diversity</h3>
             <p>We treat everyone equally and value differences</p>
         </div>
 
         <div>
-            <i class="fa-solid fa-lightbulb"></i>
+            <i style="font-size: 80px" class="fa-solid fa-lightbulb"></i>
             <h3>Creativity</h3>
             <p>Good is never enough, we seek newer and better ways</p>
         </div>
 
         <div>
-            <i class="fa-solid fa-box-open"></i>
+            <i style="font-size: 80px" class="fa-solid fa-box-open"></i>
             <h3>Quality</h3>
             <p>We settle for nothing less than the best</p>
         </div>
 
         <div>
-            <i class="fa-solid fa-people-group"></i>
+            <i style="font-size: 80px" class="fa-solid fa-people-group"></i>
             <h3>Teamwork</h3>
             <p>We achieve more by working together</p>
         </div>
@@ -131,19 +176,21 @@
 <div id="container6">
     <img id="manImage"  src="images/luuka.png">
 
-    <h4 style="color: rgb(48, 238, 48);">What Makes Us Unique...</h4>
+    <div style="justify-content: center; align-items: center;">
 
-    <h2 style="color: rgb(79, 79, 234);">Our Customer Promise</h2>
+        <h4 style="color: rgb(48, 238, 48); font-size: medium;">What Makes Us Unique...</h4>
 
-    <p>Our customers inspire us at Luuka Plastics. Whether large or small, global or local companies, we work with everyone to create packaging and protective solutions that meet performance requirements, environmental impact targets, and aesthetic needs.
+        <h2 style="color: rgb(94, 94, 222); font-size: 40px; font-weight: bold;">Our Customer Promise</h2>
 
-This customer promise summarizes how our unmatched capabilities, sustainability leadership, and deep innovation expertise can deliver on our customers' needs while tackling some of the toughest industry challenges.</p>
+        <p>Our customers inspire us at Luuka Plastics. Whether large or small, global or local companies, we work with everyone to create packaging and protective solutions that meet performance requirements, environmental impact targets, and aesthetic needs.</p>
+
+        <p>This customer promise summarizes how our unmatched capabilities, sustainability leadership, and deep innovation expertise can deliver on our customers' needs while tackling some of the toughest industry challenges.</p>
+    </div>
 </div>
 
 <div id="container7">
-    <div style="margin-left: auto;">
-        <h1>Luuka</h1>
-        <h3>plastics</h3>
+    <div>
+        <img src="/images/mainlogo.png">
     </div>
 
     <div style="margin-left: auto;">
